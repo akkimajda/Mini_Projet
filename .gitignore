@@ -1,0 +1,30 @@
+# Ignorer les fichiers compilés
+*.class
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les dossiers générés par Maven
+target/
+
+# Ignorer les configurations IDE
+.idea/
+*.iml
+*.classpath
+*.project
+
+# Ignorer les dépendances téléchargées par Maven
+.m2/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignorer les fichiers de test JUnit
+test-output/
