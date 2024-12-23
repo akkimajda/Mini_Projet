@@ -15,6 +15,11 @@ public class Person {
         return name;
     }
 
+    public int getId() {
+        return id;
+    }
+
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
